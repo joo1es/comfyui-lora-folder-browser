@@ -12,6 +12,13 @@ A ComfyUI node for browsing and selecting LoRA files from organized folder struc
   - Falls back to tag frequency analysis
 - **Clean Output**: Returns LoRA path and trigger word
 
+## Node Inputs
+
+| Input | Type | Description |
+|-------|------|-------------|
+| `folder` | COMBO | LoRA folder to browse (supports nested directories) |
+| `lora_name` | COMBO | LoRA file to select from the chosen folder |
+
 ## Node Outputs
 
 | Output | Type | Description |
