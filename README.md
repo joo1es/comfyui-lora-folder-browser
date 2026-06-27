@@ -1,5 +1,8 @@
 # comfyui-lora-folder-browser
 
+> *Why are my folders getting deeper and deeper, making it harder and harder to find that one LoRA?* 😵‍💫
+> Don't worry — this node lets you browse nested folders and auto-detects trigger words, so you can stop digging and start generating!
+
 A ComfyUI node for browsing and selecting LoRA files from organized folder structures.
 
 ## Features
@@ -34,5 +37,16 @@ A ComfyUI node for browsing and selecting LoRA files from organized folder struc
 4. Connect outputs to your LoRA loader node
 
 ## Installation
+
+### Option 1: Git Clone (Recommended)
+
+```bash
+cd ComfyUI/custom_nodes
+git clone https://github.com/joo1es/comfyui-lora-folder-browser.git
+```
+
+Restart ComfyUI after cloning.
+
+### Option 2: Manual
 
 Copy this folder to `ComfyUI/custom_nodes/` and restart ComfyUI.
