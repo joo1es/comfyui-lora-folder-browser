@@ -54,7 +54,7 @@ def find_key_recursive(data, target_keys):
                 return res
     return None
 
-class SmartLoraSelector:
+class LoRAFolderBrowser:
     @classmethod
     def INPUT_TYPES(cls):
         lora_paths = folder_paths.get_folder_paths("loras")
@@ -154,7 +154,7 @@ class SmartLoraSelector:
                     pass
 
         except Exception as e:
-            print(f"[SmartLora] 读取元数据失败 {path}: {e}")
+            print(f"[LoRAFolderBrowser] 读取元数据失败 {path}: {e}")
 
         return ""
 

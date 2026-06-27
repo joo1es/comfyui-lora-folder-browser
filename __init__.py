@@ -1,11 +1,11 @@
-from .smart_lora_node import SmartLoraSelector
+from .lora_folder_browser import LoRAFolderBrowser
 
 NODE_CLASS_MAPPINGS = {
-    "SmartLoraSelector": SmartLoraSelector
+    "LoRAFolderBrowser": LoRAFolderBrowser
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "SmartLoraSelector": "📂 LoRA Folder Browser"
+    "LoRAFolderBrowser": "📂 LoRA Folder Browser"
 }
 
 # 确保前端 JS 能够被 ComfyUI 自动加载
